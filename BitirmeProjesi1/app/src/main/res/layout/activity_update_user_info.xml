@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:drawableLeft="@drawable/woman"
+            android:enabled="false"
+            android:hint="@string/username"
+            android:imeOptions="actionSend|flagNoEnterAction"
+            android:padding="10dp"
+            android:textColorHint="@drawable/back" />
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="-2dp"
+            android:layout_marginBottom="384dp"
+            android:drawableLeft="@drawable/woman"
+            android:hint="@string/username"
+            android:imeOptions="actionSend|flagNoEnterAction"
+            android:padding="10dp"
+            android:textColorHint="@color/black" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etOldPass"
+            android:layout_marginTop="-2dp"
+            android:drawableLeft="@drawable/password"
+            android:hint="@string/oldPassword"
+            android:imeOptions="actionSend|flagNoEnterAction"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPass"
+            android:layout_marginTop="-2dp"
+            android:drawableLeft="@drawable/password"
+            android:hint="@string/newPassword"
+            android:imeOptions="actionSend|flagNoEnterAction"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="@color/black"/>
+
+
+
+        <EditText
+            android:id="@+id/etPassConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-2dp"
+            android:drawableLeft="@drawable/woman"
+            android:hint="@string/confirmPasssword"
+            android:imeOptions="actionSend|flagNoEnterAction"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnUpdate"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:text="@string/update"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    /*
+    Sadece iconlar görünsün
+    */
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/refresh"
+        app:showAsAction="ifRoom|withText"
+        android:title="Refresh"/>
+
+
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/contact"
+        app:showAsAction="ifRoom|withText"
+        android:title="Contacts"/>
+
+    <item
+        android:id="@+id/update"
+        android:icon="@drawable/update"
+        app:showAsAction="ifRoom|withText"
+        android:title="Update"/>
+
+
+
+
+</menu>
